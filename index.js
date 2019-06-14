@@ -1,7 +1,4 @@
 module.exports = {
-    globals: {
-        MyGlobal: true
-    },
     "root": true,
     "parserOptions": {
       "parser": "babel-eslint",
@@ -12,7 +9,8 @@ module.exports = {
     },
     "globals": {
       "workbox": true,
-      "importScripts": true
+      "importScripts": true,
+      "MyGlobal": true
     },
     "extends": [
       "@vue/eslint-config-standard",

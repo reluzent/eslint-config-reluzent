@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-reluzent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,11 @@
   "author": "contato@reluzent.com.br",
   "license": "ISC",
   "peerDependencies": {
-    "eslint": ">= 3"
-  }
+    "eslint": ">= 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reluzent/eslint-config-reluzent.git"
+  },
+  "keywords": ["eslint", "eslintconfig"]
 }
